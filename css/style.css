@@ -1,0 +1,169 @@
+/*====================================================
+Common Css
+====================================================*/
+body {
+  font-family: "Poppins", sans-serif;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+i {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*====================================================
+button Css
+====================================================*/
+.btn-primary {
+  background-color: #201f1f;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+  border: 2px solid #201f1f;
+  padding: 15px 20px;
+}
+
+.btn-primary:hover {
+  color: #201f1f;
+  background-color: transparent;
+  border: 3px solid #201f1f;
+}
+
+.btn-primary:hover a {
+  color: #201f1f;
+}
+
+.btn-primary a {
+  color: #ffffff;
+}
+
+/*====================================================
+Navbar Css
+====================================================*/
+.top-nav {
+  background-color: #201f1f;
+}
+
+/*====================================================
+Haeder Css
+====================================================*/
+.hero {
+  background: url(../img/hero-img.jpeg.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 270px 10px;
+}
+
+/*====================================================
+ Lattest NewsCss
+====================================================*/
+.lattest-News {
+  padding: 50px 70px;
+}
+
+.lattest-News .card .imgs {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 185px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*====================================================
+sec2 Css
+====================================================*/
+.subs {
+  background: url(../img/subs-newslatter_bg.jpg);
+  width: 100%;
+  height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+}
+
+.head {
+  border-bottom: 1px solid #201f1f;
+}
+
+.videonblog {
+  padding: 0 10px 150px 10px;
+}
+
+.side-blog-section .sec2-sideimg {
+  width: 90px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  padding: 50px 60px;
+}
+/*# sourceMappingURL=style.css.map */

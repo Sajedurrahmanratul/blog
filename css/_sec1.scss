@@ -1,0 +1,14 @@
+/*====================================================
+ Lattest NewsCss
+====================================================*/
+
+.lattest-News {
+  padding: 50px 70px;
+  .card {
+    .imgs {
+      width: fit-content;
+      height: 185px;
+      object-fit: cover;
+    }
+  }
+}

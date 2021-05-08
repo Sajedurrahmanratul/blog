@@ -1,0 +1,28 @@
+/*====================================================
+sec2 Css
+====================================================*/
+
+.subs {
+  background: url(../img/subs-newslatter_bg.jpg);
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+}
+
+.head {
+  border-bottom: 1px solid $primary-color;
+}
+
+.videonblog {
+  padding: 0 10px 150px 10px;
+}
+
+.side-blog-section {
+  .sec2-sideimg {
+    width: 90px;
+    height: 100px;
+    object-fit: cover;
+  }
+}
